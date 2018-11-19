@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header {
+  height: 50px;
+}
+
+.projects {
+  padding-top: 20px;
+}
+
+.project-item {
+  padding-top: 50px;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.fit-width {
+  width: -moz-available;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  width: 600px;
+  margin: auto;
+}
+
+.footer {
+  bottom: 0;
+  margin-top: 80px;
+  height: 30px;
+}
